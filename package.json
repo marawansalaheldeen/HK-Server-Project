@@ -1,0 +1,26 @@
+{
+  "name": "hkserver",
+  "version": "1.0.0",
+  "description": "server-mainwebsite",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marawansalaheldeen/HK-Server-Project.git"
+  },
+  "author": "Marwan Salama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marawansalaheldeen/HK-Server-Project/issues"
+  },
+  "homepage": "https://github.com/marawansalaheldeen/HK-Server-Project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1",
+    "winston": "^3.13.0"
+  }
+}
